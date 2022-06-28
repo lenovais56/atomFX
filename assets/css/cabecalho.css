@@ -1,0 +1,7 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 46px;
+    background: linear-gradient(245.64deg, #222222 -0.97%, #4B4B4B 89.16%);
+}

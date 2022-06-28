@@ -1,0 +1,21 @@
+/* .menu__item--seletor {
+    background-image: url(../img/globo-icon.png);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    width: 20px;
+    height: 20px;
+    margin-right: 5rem;
+} */
+
+#seletor__linguagem {
+    border: none;
+    width: 55px;
+    height: 20px;
+    color: white;
+    background: transparent;
+}
+
+.linguagem:hover {
+    background-image: url(../img/globo-icon.png);
+    color: aliceblue;
+}

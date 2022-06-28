@@ -1,0 +1,6 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(245.64deg, #222222 -0.97%, #4B4B4B 89.16%);
+}

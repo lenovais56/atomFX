@@ -1,0 +1,15 @@
+.banner__titulo {
+    width: 450px;
+    height: 202px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    color: #FFFFFF;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+
+.banner__titulo--destaque {
+    color: #396AF7;
+}

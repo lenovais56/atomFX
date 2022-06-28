@@ -1,0 +1,7 @@
+.banner__imagem {
+    display: flex;
+    width: 520px;
+    height: 583px;
+    opacity: 0.8;
+    float: right;
+}
