@@ -30,8 +30,21 @@
     <link rel="stylesheet" href="assets/css/beneficios/beneficios__descricao.css">
     <link rel="stylesheet" href="assets/css/beneficios/beneficios__botao.css">
     <link rel="stylesheet" href="assets/css/simulador.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulador__destaque.css">
     <link rel="stylesheet" href="assets/css/simulador/simulador__titulo.css">
     <link rel="stylesheet" href="assets/css/simulador/simulador__descricao.css">
+    <link rel="stylesheet" href="assets/css/simulacao__lista.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__inicial.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__titulo.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__descricao.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__valor.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__input.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--descricao.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--valor.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__descricao--balanco.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--balancoValor.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -89,10 +102,26 @@
         <button href="#" class="beneficios__botao">Try 1 month free</button>
     </section>
     <section class="simulador">
-        <div>
             <h2 class="simulador__titulo">See how much you can earn</h2>
             <p class="simulador__descricao">Discover how much you could accumulate for tomorrow if you invest in your today.</p>
-        </div>
+        <!-- <div class="simulacao"> -->
+            <ul class="simulacao__lista">
+            <li class="simulacao__inicial">
+                <h3 class="simulacao__titulo">Initial investment</h3>
+                <p class="simulacao__descricao">Expected monthly return: 10%-25%</p>
+                <p class="simulacao__valor">$3,000.00</p>
+                <input type="range" class="simulacao__input" id="simulacao__botao" min="1,000.00" max="100,000.00" step="any">  
+            </li>
+            <li class="simulacao__resultado">
+                <p class="simulacao__resultado--descricao">Expected gross profits in conservative mode <span>(6 months)</span></p>
+                <p class="simulacao__resultado--valor">+ $3,939.18</p>
+                <p class="simulacao__descricao--balanco">Final balance</p>
+                <p class="simulacao__resultado--balancoValor">$6,939.18</p>
+                <img class="simulacao__imagem" src="assets/img/grafico.png" alt="imagem de um grafico">
+            </li>
+            </ul>
+        <!-- </div> -->
+        <button href="#" class="beneficios__botao">Try 1 month free</button>   
     </section>
 </body>
 </html>

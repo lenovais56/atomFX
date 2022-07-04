@@ -1,0 +1,11 @@
+.simulacao__resultado--descricao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.simulacao__resultado--descricao span {
+    font-weight: 500;
+}

@@ -1,9 +1,8 @@
-.simulador__descricao {
+.simulacao__descricao {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 24px;
     color: #222222;
-    width: 413px;
-    margin-top: 140px;
+    margin-bottom: 79px;
 }
