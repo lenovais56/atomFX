@@ -1,0 +1,5 @@
+.simulador {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F4F8;
+}

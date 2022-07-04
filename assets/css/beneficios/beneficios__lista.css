@@ -1,0 +1,6 @@
+.beneficios__lista {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 106px;
+}

@@ -1,0 +1,10 @@
+.beneficios__titulo {
+    width: 100%;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #131313;
+    text-align: center;
+    margin-top: 140px;
+}
