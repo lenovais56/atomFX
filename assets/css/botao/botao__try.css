@@ -1,0 +1,15 @@
+.botao__try {
+    width: 213px;
+    height: 56px;
+    margin-top: 106px;
+    background-color: #396AF7;
+    color: #FFFFFF;
+    font-family: 'Familjen Grotesk';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border: none;
+    margin: 0 auto;
+    align-self: center;
+}

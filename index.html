@@ -8,6 +8,7 @@
     <title>AtomFX | Home</title>
 
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/botao/botao__try.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/menu/menu__lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu__item.css">
@@ -42,6 +43,7 @@
     <link rel="stylesheet" href="assets/css/simulador/simulacao__input.css">
     <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado.css">
     <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--descricao.css">
+    <link rel="stylesheet" href="assets/css/simulador/simulador__dica.css">
     <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--valor.css">
     <link rel="stylesheet" href="assets/css/simulador/simulacao__descricao--balanco.css">
     <link rel="stylesheet" href="assets/css/simulador/simulacao__resultado--balancoValor.css">
@@ -72,7 +74,7 @@
         <div>
             <h2 class="banner__titulo">Consistently earn <span class="banner__titulo--destaque">10% to 25%</span> monthly profits on autopilot</h2>
             <p class="banner__descricao">Connect your own forex broker account to our proven and secure trading robot</p>
-            <button class="banner__botao">Try 1 month free</button>
+            <button class="botao__try banner__botao">Try 1 month free</button>
             <p class="banner__rendimento">+$7,387,384.00</p>
             <p class="banner__rendimento--descricao"><span class="banner__rendimento--destaque">In profits</span> earned by our users in the <span class="banner__rendimento--destaque">last 30 days</span></p>
         </div>
@@ -99,29 +101,58 @@
                 <p class="beneficios__descricao">Our proven secure hedging strategy allows you to profit no matter the direction the market goes. Safety techniques are also used to tremendously reduce the risk and maximize your earnings.</p>
             </li>
         </ul>
-        <button href="#" class="beneficios__botao">Try 1 month free</button>
+        <button href="#" class="botao__try">Try 1 month free</button>
     </section>
     <section class="simulador">
+        <div class="simulador">
             <h2 class="simulador__titulo">See how much you can earn</h2>
             <p class="simulador__descricao">Discover how much you could accumulate for tomorrow if you invest in your today.</p>
-        <!-- <div class="simulacao"> -->
-            <ul class="simulacao__lista">
-            <li class="simulacao__inicial">
+        </div>            
+        <div class="simulacao">
+            <div class="simulacao__inicial">
                 <h3 class="simulacao__titulo">Initial investment</h3>
                 <p class="simulacao__descricao">Expected monthly return: 10%-25%</p>
                 <p class="simulacao__valor">$3,000.00</p>
                 <input type="range" class="simulacao__input" id="simulacao__botao" min="1,000.00" max="100,000.00" step="any">  
-            </li>
-            <li class="simulacao__resultado">
-                <p class="simulacao__resultado--descricao">Expected gross profits in conservative mode <span>(6 months)</span></p>
+            </div>
+            <div class="simulacao__resultado">
+                <p class="simulacao__resultado--descricao">Expected gross profits in conservative mode <span>(6 months) </span></p>
+                <div class="simulador__dica">
+                    <div class="simulador__dica--texto">Considering 15% monthly
+profits and not considering the 25% performance fee (charged separately in the credit card).
+                    </div>     
+                    <div class="simulador__dica--icone">
+                        .
+                    </div>
+                </div>
                 <p class="simulacao__resultado--valor">+ $3,939.18</p>
                 <p class="simulacao__descricao--balanco">Final balance</p>
                 <p class="simulacao__resultado--balancoValor">$6,939.18</p>
                 <img class="simulacao__imagem" src="assets/img/grafico.png" alt="imagem de um grafico">
+            </div>
+        </div>
+        <button href="#" class="botao__try simulador__botao">Try 1 month free</button>   
+    </section>
+    <section class="beneficios">
+        <h2 class="beneficios__titulo">Passive income redefined</h2>        
+        <ul class="beneficios__lista">
+            <li class="beneficios__item">
+                <img src="assets/img/cofre-icon.png" alt="icone de um cofre" class="beneficios__icone">
+                <p class="beneficios__destaque">Money in your own account</p>
+                <p class="beneficios__descricao">Simply connect connect your own forex broker account to our proven secure and profitable trading robot (EA), earn profits monthly and withdraw your funds anytime you want.</p>
             </li>
-            </ul>
-        <!-- </div> -->
-        <button href="#" class="beneficios__botao">Try 1 month free</button>   
+            <li class="beneficios__item">
+                <img src="assets/img/robo-icon.png" alt="icone de um robo" class="beneficios__icone">
+                <p class="beneficios__destaque">Fully automated trading</p>
+                <p class="beneficios__descricao">Our trading robot (EA) runs in a secure, proven reliable, and scalable server infrastructure and can perform trades 24/5 at a speed no human can do. Get technology to work in your favor.</p>
+            </li>
+            <li class="beneficios__item">
+                <img src="assets/img/medalha-icon.png" alt="icone de uma medalha" class="beneficios__icone">
+                <p class="beneficios__destaque">Battle-tested strategy</p>
+                <p class="beneficios__descricao">Our proven secure hedging strategy allows you to profit no matter the direction the market goes. Safety techniques are also used to tremendously reduce the risk and maximize your earnings.</p>
+            </li>
+        </ul>
+        <button href="#" class="botao__try">Try 1 month free</button>
     </section>
 </body>
 </html>
