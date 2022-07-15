@@ -1,9 +1,9 @@
 .cabecalho {
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 46px;
-    background: transparent;
+    background: linear-gradient(245.64deg, #222222 -0.97%, #4B4B4B 89.16%);
 }
