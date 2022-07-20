@@ -1,0 +1,12 @@
+.download__titulo {
+    width: 533px;
+    height: 120px;
+    margin: 88px 0 24px 112px;
+
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+}

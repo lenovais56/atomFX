@@ -1,0 +1,15 @@
+.download__botao {
+    width: 233px;
+    height: 88px;
+    border: none;
+       
+}
+
+.download__botao--google {
+    background-image: url(../../img/google-play.png);
+    margin: 0 24px 0 112px;
+}
+
+.download__botao--apple {
+    background-image: url(../../img/app-store.png);
+}

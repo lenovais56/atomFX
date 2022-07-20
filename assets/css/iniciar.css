@@ -1,0 +1,6 @@
+.iniciar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #f5f5f5;
+}
