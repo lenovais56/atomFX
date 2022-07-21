@@ -1,7 +1,12 @@
 .recomendacoes__chamada {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+
+.recomendacoes__chamada--titulo {
     width: 402px;
     height: 96px;
-    padding-left: 88px;
     font-family: 'Familjen Grotesk', sans-serif;
     font-weight: 600;
     font-size: 45px;

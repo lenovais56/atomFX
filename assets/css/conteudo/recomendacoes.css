@@ -1,14 +1,11 @@
 .recomendacoes {
     padding-top: 480px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .botao__recomendacoes {
-    margin-right: 85px;
+    margin: 0;
 }
-
-/* @media screen and (min-width: 1200px) {
-
-} */

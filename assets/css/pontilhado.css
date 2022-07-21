@@ -1,0 +1,42 @@
+.pontilhado__preto {
+    background-image: url(../img/pontilhado-preto.png);
+    width: 282px;
+    height: 146px;
+    position: relative;
+}
+
+.simulador__pontilhado {
+    margin: -65px 0px -75px 965px;
+}
+
+.iniciar__pontilhado {
+    margin: -70px 0 0 146px;
+}
+
+.pontilhado__branco--celular {
+    background-image: url(../img/pontilhado-branco-celular.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 376px;
+}
+
+.download__pontilhado {
+    position: relative;
+    margin: 90px 0 0 -145px;
+}
+
+.pontilhado__branco {
+    background-image: url(../img/pontilhado-branco.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 190px;
+}
+
+.chat__pontilhado {
+    position: absolute;
+    margin: -57px 0 0 -95px;
+}
+
+.pontilhado__comece--agora {
+    margin: 0 0 0 -120px;
+}
