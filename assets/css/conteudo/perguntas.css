@@ -1,0 +1,53 @@
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perguntas__chamada {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    margin: 110px 0 72px 0;
+
+    color: #ffffff;
+}
+
+.perguntas__lista {
+    width: 970px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 240px;
+}
+
+.perguntas__item {
+    width: 467px;
+    height: 135px;
+    margin-bottom: 46px;
+}
+
+.perguntas__titulo {
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 16px;
+
+    color: #ffffff;
+}
+
+.perguntas__descricao {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #ffffff;
+    opacity: 0.6;
+}
