@@ -1,0 +1,10 @@
+.recomendacoes {
+    padding-top: 480px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botao__recomendacoes {
+    margin-right: 85px;
+}

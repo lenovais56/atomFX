@@ -1,0 +1,39 @@
+.chat {
+    display: flex;
+    justify-content: center;
+    margin-top: 193px;
+}
+
+.chat__chamada {
+    display: flex;
+    flex-direction: column;
+    margin-right: 300px;
+}
+
+.chat__titulo {
+    width: 380px;
+    height: 96px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.chat__descricao {
+    width: 486px;
+    height: 72px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 72px;
+
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.botao__chat {
+    margin: 0 0 0 -270px;
+}

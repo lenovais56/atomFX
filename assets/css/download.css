@@ -1,7 +1,8 @@
 .download {
+    width: 1178px;
     height: 488px;
     background: #396AF7;
-    margin-top: 140px;
+    margin: 140px auto 0 auto;
     display: flex;
     justify-content: center;
 }

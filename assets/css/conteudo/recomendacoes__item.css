@@ -1,0 +1,49 @@
+.recomendacoes__item {
+    width: 350px;
+    height: 195px;
+    background-color: #ffffff;
+    margin-right: 32px;
+    padding: 24px 0 0 24px;
+}
+
+.recomendacoes__item--ultimo {
+    margin-right: 0;
+}
+
+.estrela {
+    width: 143px;
+    height: 24px;
+    background-image: url(../../img/estrela-icon.png);
+    background-repeat: space;
+    
+}
+
+.recomendacoes__titulo {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 32px;
+}
+
+.recomendacoes__descricao {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #929292;
+    margin-top: 8px;
+}
+
+.recomendacoes__autor {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #131313;
+    margin-top: 24px;
+}
