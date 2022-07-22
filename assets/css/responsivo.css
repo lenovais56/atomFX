@@ -1,5 +1,9 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .menu__login {
+        margin-left: 70px;
+    }
+
     .banner {
         height: 570px;
     }
@@ -82,6 +86,120 @@
         margin-bottom: 70px;
     }
 
+    .download {
+        width: 700px;
+        height: 440px;
+    }
+
+    .download__conteudo {
+        display: flex;
+        flex-direction: column;
+        margin: auto 0 auto 20px;
+    }
+
+    .download__titulo {
+        width: 300px;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .download__descricao {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .download__botao--google {
+        margin-bottom: 25px;
+    }
+
+    .download__imagem {
+        margin-top: 55px;
+        height: 385px;
+    }
+
+    .download__pontilhado {
+        margin-top: 15px;
+    }
+
+    .recomendacoes {
+        padding-top: 420px;
+    }
+
+    .recomendacoes__chamada {
+        width: 769px;
+        justify-content: space-around;
+    }
+
+    .recomendacoes__lista {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .recomendacoes__item {
+        width: 320px;
+        padding: 24px 10px 0 10px;
+        margin-right: 0;
+    }
+
+    .recomendacoes__item--ultimo {
+        margin-top: 20px;
+    }
+
+    .chat {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .chat__chamada {
+        margin: 0;
+    }
+
+    .chat__titulo {
+        width: 320px;
+    }
+
+    .botao__chat {
+        margin: 0 auto;
+    }
+
+    .chat__imagem {
+        margin-top: 60px;
+    }
+
+    .perguntas {
+        background-color: #222222;
+    }
+
+    .perguntas__chamada {
+        margin: 70px 0;
+    }
+
+    .perguntas__lista {
+        width: 460px;
+        height: 835px;
+        flex-wrap: nowrap;
+    }
+
+    .comece__agora {
+        margin-top: 2920px;
+    }
+
+    .comece__agora--conteudo {
+        margin-left: 40px;
+    }
+
+    .comece__agora--chamada {
+        width: 415px;
+    }
+
+    .botao__comece--agora {
+        margin-left: 70px;
+    }
+
+    .informacoes__item--empresa {
+        margin-bottom: 24px;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width:1200px) {
