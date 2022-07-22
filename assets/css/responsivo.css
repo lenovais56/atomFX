@@ -1,4 +1,281 @@
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cabecalho {
+        width: 100vh;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .banner__conteudo {
+        margin: 10px;
+    }
+
+    .banner__titulo {
+        width: 300px;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .banner__descricao {
+        width: 300px;
+        margin-bottom: 70px;
+    }
+
+    .banner__botao {
+        margin: 0 auto 0 auto;
+    }
+
+    .banner__moeda {
+        display: none;
+    }
+
+    .beneficios__titulo {
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+    .beneficios__lista {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beneficios__item {
+        width: 300px;
+    }
+
+    .simulador__pontilhado {
+        display: none;
+    }
+
+    .simulador__teste {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .simulador__titulo {
+        width: 195px;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .simulador__descricao {
+        width: 190px;
+        margin-top: 50px;
+    }
+
+    .simulacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .simulacao__inicial {
+        width: 300px;
+        margin: 50px 0 0 0;
+    }
+
+    .simulacao__imagem {
+        width: 300px;
+    }
+
+    .simulador__botao {
+        margin-bottom: 70px;
+    }
+
+    .iniciar__titulo {
+        font-size: 30px;
+    }
+
+    .iniciar__lista {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iniciar__item {
+        width: 300px;
+    }
+
+    .download {
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .download__conteudo {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .download__titulo {
+        width: 320px;
+        font-size: 30px;
+        margin: 0 0 18px;
+        line-height: 48px;
+    }
+
+    .download__descricao {
+        font-size: 16px;
+    }
+
+    .download__botao--google, .download__botao--apple {
+        margin: 0 auto 15px auto;
+    }
+
+    .download__imagem, .download__pontilhado {
+        display: none;
+    }
+
+    .conteudo {
+        height: 2434px;
+    }
+
+    .recomendacoes {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .recomendacoes__chamada {
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recomendacoes__chamada--titulo {
+        width: 270px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .botao__recomendacoes {
+        margin: 0;
+        align-self: auto;
+    }
+    
+    .recomendacoes__lista {
+        flex-direction: column;
+    }
+
+    .recomendacoes__item {
+        margin: 0 0 10px 0;
+        width: 320px;
+    }
+
+    .recomendacoes__descricao {
+        width: 300px;
+    }
+
+    .recomendacoes__avaliacao{
+        width: 280px;
+    }
+
+    .recomendacoes__avaliacao {
+        width: 170px;
+    }
+
+    .chat {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chat__chamada {
+        margin: 0;
+        align-items: center;
+    }
+
+    .chat__titulo {
+        width: 270px;
+        font-size: 30px;
+    }
+
+    .chat__descricao {
+        width: 270px;
+    }
+
+    .botao__chat {
+        margin: 50px 0 0 0;
+    }
+
+    .chat__imagem {
+        margin-top: 50px;
+    }
+
+    .chat__imagem--equipe {
+        width: 320px;
+    }
+
+    .chat__pontilhado {
+        display: none;
+    }
+
+    .perguntas {
+        background-color: #222222;
+        height: 1700px;
+    }
+
+    .perguntas__chamada {
+        font-size: 30px;
+        width: 270px;
+        margin-bottom: 20px;
+    }
+
+    .perguntas__lista {
+        flex-wrap: nowrap;
+        width: 320px;
+        align-items: center;
+    }
+
+    .perguntas__item {
+        width: 270px;
+        margin-top: 60px;
+    }
+
+    .comece__agora {
+        margin-top: 3785px;
+        height: 350px;
+        flex-direction: column;
+    }
+
+    .comece__agora--conteudo {
+        margin-bottom: 50px;
+    }
+
+    .comece__agora--chamada {
+        font-size: 30px;
+    }
+
+    .comece__agora--descricao {
+        width: 270px;
+    }
+
+    .botao__comece--agora {
+        margin: 0 auto;
+    }
+
+    .pontilhado__comece--agora {
+        display: none;
+    }
+
+    .informacoes {
+        height: 950px;
+    }
+
+    .informacoes__lista {
+        flex-direction: column;
+        margin: 10px;
+        width: 320px;
+    }
+
+    .rodape {
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .menu__login {
         margin-left: 70px;
@@ -374,6 +651,6 @@
 
 @media screen and (min-width: 1801px) {
     .banner__conteudo {
-        margin-left: 7%;
+        margin-left: 12%;
     }
 }
