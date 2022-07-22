@@ -1,6 +1,7 @@
 .beneficios {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     margin-bottom: 70px;
 }

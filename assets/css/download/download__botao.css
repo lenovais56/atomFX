@@ -7,7 +7,7 @@
 
 .download__botao--google {
     background-image: url(../../img/google-play.png);
-    margin: 0 24px 0 112px;
+    margin: 0 24px 0 0;
 }
 
 .download__botao--apple {

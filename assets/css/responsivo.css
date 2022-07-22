@@ -1,0 +1,210 @@
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+        height: 570px;
+    }
+
+    .banner__conteudo {
+        margin: auto 0 auto 20px;
+    }
+
+    .banner__titulo {
+        width: 390px;
+        font-size: 40px;
+    }
+
+    .banner__descricao {
+        width: 280px;
+        font-size: 12px;
+    }
+
+    .banner__moeda {
+        width: 600px;
+        background-position: unset;
+        margin: 20px 0 0 35px;
+    }
+
+    .banner__botao {
+        margin-top: 35px;
+    }
+    .banner__rendimento {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+    .cabecalho {
+        width: 100vw;
+    }
+
+    .banner__conteudo {
+        margin-left: 6%;
+    }
+
+    .banner__moeda {
+        width: 510px;
+    }
+
+    .beneficios__lista {
+        width: 1024px;
+    }
+
+    .simulador__teste {
+        flex-direction: column;
+    }
+
+    .simulador__titulo {
+        margin-top: 120px;
+    }
+
+    .simulador__descricao {
+        margin-top: 30px;
+    }
+
+    .simulador__pontilhado {
+        margin-left: 700px;
+    }
+
+    .iniciar {
+        margin-bottom: 230px;
+    }
+
+    .iniciar__lista {
+        width: 1024px;
+        justify-content: space-around;
+    }
+
+    .iniciar__item {
+        width: 300px;
+    }
+
+    .download {
+        width: 80%;
+    }
+
+    .download__titulo {
+        margin: 40px 0 24px 20px;
+    }
+
+    .download__descricao {
+        margin: 0 0 48px 20px;
+    }
+
+    .download__botao--google {
+        margin: 0 24px 0 20px;
+    }
+
+    .download__imagem {
+        height: 340px;
+        margin-top: 148px;
+        margin-left: -30px;
+    }
+
+    .download__pontilhado {
+        margin: 100px 0 0 -225px;
+    }
+
+    .recomendacoes {
+        padding-top: 420px;
+    }
+
+    .recomendacoes__chamada {
+        justify-content: space-around;
+        width: 1024px;
+    }
+
+    .recomendacoes__lista {
+        width: 1024px;
+        justify-content: space-around;
+    }
+
+    .recomendacoes__item {
+        margin-right: 10px;
+        width: 295px;
+    }
+
+    .recomendacoes__item--ultimo {
+        margin-right: 0;
+    }
+
+    .chat {
+        margin-top: 170px;
+    }
+
+    .chat__chamada {
+        margin-right: 130px;
+    }
+
+    .chat__titulo {
+        width: 320px;
+        font-size: 37px;
+    }
+
+    .chat__descricao {
+        width: 450px;
+    }
+
+    .botao__chat {
+        margin-left: -238px;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+    .banner__conteudo {
+        margin-left: 6%;
+    }
+
+    .download {
+        width: 85%;
+        height: 460px;
+    }
+
+    .download__conteudo {
+        margin-left: 20px;
+    }
+
+    .download__titulo {
+        width: 500px;
+    }
+
+    .download__imagem {
+        margin-top: 37px;
+    }
+
+    .download__pontilhado {
+        margin:  80px 0 0 -135px;
+    }
+
+    .recomendacoes__chamada {
+        width: 1000px;
+    }
+
+    .chat__chamada {
+        margin-right: 250px;
+    }
+
+    .perguntas__lista {
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1350px) {
+    .banner__conteudo {
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .banner__conteudo {
+        margin-left: 11%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .banner__conteudo {
+        margin-left: 12%;
+    }
+}

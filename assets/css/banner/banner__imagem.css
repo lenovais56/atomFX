@@ -1,5 +1,6 @@
 .banner__imagem {
     display: flex;
+    position: relative;
     width: 520px;
     height: 583px;
     opacity: 0.8;
