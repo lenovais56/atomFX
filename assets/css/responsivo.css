@@ -27,8 +27,59 @@
     .banner__botao {
         margin-top: 35px;
     }
+
     .banner__rendimento {
         margin-top: 50px;
+    }
+
+    .beneficios__lista {
+        width: 730px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .simulador__pontilhado {
+        margin: -71px 0px -75px 550px;
+    }
+
+    .simulador__teste {
+        flex-direction: column;
+    }
+
+    .simulador__titulo {
+        margin: 100px 0 0 0;
+    }
+
+    .simulador__descricao {
+        margin-top: 40px;
+    }
+
+    .simulacao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .simulacao__resultado {
+        margin-top: 40px;
+    }
+
+    .simulador__botao {
+        margin-bottom: 70px;
+    }
+
+    .iniciar {
+        margin-bottom: 220px;
+    }
+    
+    .iniciar__pontilhado {
+        margin: -70px 0 0 -555px;
+    }
+
+    .iniciar__lista {
+        width: 730px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 70px;
     }
 
 }
@@ -151,7 +202,7 @@
 
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
     .banner__conteudo {
         margin-left: 6%;
     }
@@ -191,20 +242,20 @@
 
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1351px) and (max-width: 1600px) {
     .banner__conteudo {
         margin-left: 9%;
     }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1600px) and (max-width: 1800px){
     .banner__conteudo {
         margin-left: 11%;
     }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1801px) {
     .banner__conteudo {
-        margin-left: 12%;
+        margin-left: 7%;
     }
 }
