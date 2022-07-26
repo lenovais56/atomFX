@@ -1,27 +1,39 @@
-<h1 align="center" font-size="bold" color-font="red"> AtomFX </h1>
+<h1 align="center" font-size="bold"> AtomFx </h1>
 
+<p align="center">
+  <img width="600" height="400" src="assets/img/AtomFX.gif">
+</p>
 
 # Resumo do projeto
 
 <p>
   
-  ``Projeto em desenvolvimento``
- 
+  ``Projeto criado para revisão e prática de HTML, CSS e responsividade``
 
 </p>
+
+## 🔨 Principais táticas de criação do projeto
+
+- `1` `Emmet`: Escrita agil do HTML.
+- `2` `CSS`: Desenvolvimento feito com flexbox.
+- `3` `Menu responsivo`: Menu responsivo tipo hamburguer desenvolvido para telas de 320px a 768px.
+- `4` `Responsividade`: Responsividade para telas de 320px a 1801px.
 
 ## ✔️ Tecnologias utilizadas
 
 - ``HTML5``
 - ``CSS3``
+- ``Responsividade``
 - ``VS code``
 
+## 💻 Acesse o site
 
+https://lenovais56.github.io/atomFX/
 
-figma: https://www.figma.com/file/DiacWUnMmtu45xLfRhiOtE/PROJETO-2022?node-id=1%3A3
+## 💻 Acesse o repositório
 
+https://github.com/lenovais56/atomFX
 
-link Menu hamburguer 
-https://www.youtube.com/watch?v=i5Fps4GBBns
+## 💻 Acesse o figma
 
-https://willianjusten.com.br/criando-menu-fullscreen-animado-com-css-puro
+https://www.figma.com/file/DiacWUnMmtu45xLfRhiOtE/PROJETO-2022
