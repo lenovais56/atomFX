@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/botao/botao__try.css">
+    <link rel="stylesheet" href="assets/css/menu__burguer.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/menu/menu__lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu__item.css">
@@ -75,13 +76,25 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img class="logo" src="assets/img/logo.svg" alt="Logo atomFX">
-        <nav class="menu">
+        <div class="logo"></div>
+        <input id="check__burguer" type="checkbox">
+            <label for="check__burguer">
+                <div class="menu__burguer">
+                    <span class="burguer"></span>
+                </div>
+            </label>
             <ul class="menu__lista">
-                <li class="menu__item"><a href="#" class="menu__link">Why AtomFX</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Results</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">How ir Works</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Help</a></li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Why AtomFX</a></li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Results</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">How ir Works</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Help</a>
+                </li>
                 <div class="menu__login">
                     <li class="menu__item menu__item--seletor">
                         <select id="seletor__linguagem" class="seletor__linguagem--icone">
@@ -89,11 +102,14 @@
                             <option class="linguagem" value="">PT</option>
                         </select>
                     </li>
-                    <li class="menu__item"><a href="#" class="menu__link">Login</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Get started</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Login</a>
+                    </li>
+                    <li class="menu__item menu__item--iniciar">
+                        <a href="#" class="menu__link">Get started</a>
+                    </li>
                 </div>
             </ul>
-        </nav>
     </header>
     <section class="banner">
         <div class="banner__conteudo">

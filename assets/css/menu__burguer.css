@@ -1,0 +1,127 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .cabecalho {
+        width: 100vw;
+        height: 46px;
+        background: grey;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+
+    .logo {
+        margin-left: 15px;
+        z-index: 1;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__login {
+        display: none;
+    }
+    
+    .menu__burguer {
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 #222222, 0 0 0 0 #222222;
+        transition: box-shadow 1s cubic-bezier(0, 0.73, 0.97, 0.4);
+        margin-right: 15px;
+    }
+
+    .burguer {
+        position: relative;
+        display: block;
+        background: #396AF7;
+        width: 22px;
+        height: 4px;
+        border-radius: 5px;
+        top: 18px;
+        left: 9px;
+        transition: .5s ease-in-out;
+    }
+
+    .burguer::before, .burguer::after {
+        background: #396AF7;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 5px;
+        transition: .5s ease-in-out;
+    }
+
+    .burguer::before {
+        top: -8px;
+    }
+
+    .burguer::after {
+        bottom: -8px;
+    }
+
+    #check__burguer {
+        display: none;
+        margin-right: 8px;
+    }
+
+    #check__burguer:checked ~ label .menu__burguer {
+        box-shadow: 0 0 0 100vw #222222, 0 0 0 100vh #222222;
+    }
+
+    #check__burguer:checked ~ label .burguer {
+        transform: rotate(45deg);
+    }
+
+    #check__burguer:checked ~ label .burguer:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+
+    #check__burguer:checked ~ label .burguer::after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+
+    #check__burguer:checked ~ .menu__lista {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 60vh;
+        margin-top: 650px;
+        opacity: 1;
+        transition: .25s .5s ease-in-out;
+    }
+
+    .menu__lista {
+        opacity: 0;
+    }
+
+    .menu__item {
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+    .menu__login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: space-evenly;
+        width: 100vw;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    #check__burguer {
+        display: none;
+    }
+}

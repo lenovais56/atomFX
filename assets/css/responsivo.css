@@ -1,7 +1,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .cabecalho {
-        width: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .banner {
@@ -81,6 +84,14 @@
         width: 300px;
     }
 
+    .simulacao__resultado {
+        padding: 15px 0 15px 0;
+    }
+
+    .simulacao__resultado--descricao {
+        font-size: 14px;
+    }
+
     .simulador__botao {
         margin-bottom: 70px;
     }
@@ -113,8 +124,8 @@
     }
 
     .download__titulo {
-        width: 320px;
-        font-size: 30px;
+        width: 300px;
+        font-size: 28px;
         margin: 0 0 18px;
         line-height: 48px;
     }
@@ -141,9 +152,13 @@
     }
 
     .recomendacoes__chamada {
-        width: 320px;
+        width: 300px;
         flex-direction: column;
         align-items: center;
+    }
+
+    .estrela {
+        width: 130px;
     }
 
     .recomendacoes__chamada--titulo {
@@ -163,7 +178,7 @@
 
     .recomendacoes__item {
         margin: 0 0 10px 0;
-        width: 320px;
+        width: 300px;
     }
 
     .recomendacoes__descricao {
@@ -277,6 +292,23 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cabecalho {
+        width: 100vw;
+        flex-direction: row;
+    }
+
+    #check__burguer, .check__burguer {
+        display: none;
+    }
+
+    .menu__lista {
+        display: flex;
+    }
+
+    .menu__item {
+        font-size: 14px;
+    }
+    
     .menu__login {
         margin-left: 70px;
     }
@@ -320,7 +352,7 @@
     }
 
     .simulador__pontilhado {
-        margin: -71px 0px -75px 550px;
+        margin: -60px 0px -75px 485px;
     }
 
     .simulador__teste {
@@ -484,6 +516,25 @@
         width: 100vw;
     }
 
+    .menu__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__item--seletor {
+        margin-right: 10px;
+    }
+
+    .menu__item--iniciar {
+        border: solid grey 1px;        
+    }
+
+    .menu__item--iniciar .menu__link {
+        margin-right: 0;
+        padding: 1px;
+    }
+
     .banner__conteudo {
         margin-left: 6%;
     }
@@ -598,6 +649,25 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1350px) {
+    .menu__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__item--seletor {
+        margin-right: 10px;
+    }
+
+    .menu__item--iniciar {
+        border: solid grey 1px;        
+    }
+
+    .menu__item--iniciar .menu__link {
+        margin-right: 0;
+        padding: 1px;
+    }
+
     .banner__conteudo {
         margin-left: 6%;
     }
@@ -638,18 +708,75 @@
 }
 
 @media screen and (min-width: 1351px) and (max-width: 1600px) {
+    .menu__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__item--seletor {
+        margin-right: 10px;
+    }
+
+    .menu__item--iniciar {
+        border: solid grey 1px;        
+    }
+
+    .menu__item--iniciar .menu__link {
+        margin-right: 0;
+        padding: 1px;
+    }
+
     .banner__conteudo {
         margin-left: 9%;
     }
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1800px){
+    .menu__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__item--seletor {
+        margin-right: 10px;
+    }
+
+    .menu__item--iniciar {
+        border: solid grey 1px;        
+    }
+
+    .menu__item--iniciar .menu__link {
+        margin-right: 0;
+        padding: 1px;
+    }
+
     .banner__conteudo {
         margin-left: 11%;
     }
 }
 
 @media screen and (min-width: 1801px) {
+    .menu__lista {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu__item--seletor {
+        margin-right: 10px;
+    }
+
+    .menu__item--iniciar {
+        border: solid grey 1px;        
+    }
+
+    .menu__item--iniciar .menu__link {
+        margin-right: 0;
+        padding: 1px;
+    }
+
     .banner__conteudo {
         margin-left: 12%;
     }

@@ -7,3 +7,12 @@
     height: 46px;
     background: linear-gradient(245.64deg, #222222 -0.97%, #4B4B4B 89.16%);
 }
+
+.logo {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    width: 112px;
+    height: 23px;
+}
