@@ -94,8 +94,8 @@
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 60vh;
-        margin-top: 650px;
+        height: 400px;
+        margin-top: 450px;
         opacity: 1;
         transition: .25s .5s ease-in-out;
     }
